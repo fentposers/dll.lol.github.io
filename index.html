@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html class=" jcovjlytc idc0_346" lang="en" theme="White">
 <head>
-    
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-    <meta charset="utf-8">   
-    <title> dll.lol</title>
-    <meta content="dll.lol" property="og:title">
+    <meta charset="utf-8">
+    <title>dll (@dll) · dll.lol</title>
+    <meta content="dll (@hdll) · dll.lol" property="og:title">
     <meta content="enzo" name="description">
     <meta content="enzo" property="og:description">
     <meta content="summary" name="twitter:card">
@@ -18,71 +17,14 @@
     <script src="https://swatted.net/enzo_files/jquery.min.js"></script>
     <link href="https://swatted.net/enzo_files/animate.css" rel="stylesheet">
     <script data-site="IHGLANPG" defer="defer" src="https://swatted.net/enzo_files/script.js"></script>
-    <style>
-        /* Snowflake animation */
-        @keyframes snowfall {
-            from {
-                transform: translateY(-100vh);
-            }
-            to {
-                transform: translateY(5vh);
-            }
-        }
-
-        .snowflake {
-            position: absolute;
-            width: 5px;
-            height: 5px;
-            background: #fff;
-            border-radius: 50%;
-            animation: snowfall 5s linear infinite;
-            pointer-events: none;
-        }
-    </style>
 </head>
-<body class="net" style="color: #fff; 
-           background: url('https://cdn.discordapp.com/attachments/1203437699248160790/1249218701895663646/money_spread_gif.gif?ex=66668113&is=66652f93&hm=f2fae2543c165a44a33bd9ae904d8d1292e8fbd074d70335837788045024c398&') no-repeat center center fixed;
+<body class="swattednet" style="color: #fff; 
+           background: url('politicalPenis.mp4') no-repeat center center fixed;
            -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
            filter: drop-shadow(8px 5px 8px #ffffff);">
-    <!-- Snowflakes -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const numFlakes = 30; // Number of snowflakes
-            const body = document.body;
-
-            for (let i = 0; i < numFlakes; i++) {
-                const snowflake = document.createElement('div');
-                snowflake.className = 'snowflake';
-                snowflake.style.left = Math.random() * 100 + 'vw';
-                snowflake.style.animationDuration = (Math.random() * 3 + 2) + 's';
-                snowflake.style.animationDelay = -Math.random() * 5 + 's';
-                body.appendChild(snowflake);
-            }
-        });
-    </script>
-
-</head>
-<body class="net" style="color: #fff; 
-           background: url('dont do anything with this') no-repeat center center fixed;
-         
-           filter: drop-shadow(8px 5px 8px #ffffff);">
-    <!-- Snowflakes -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const numFlakes = 30; // Number of snowflakes
-            const body = document.body;
-
-            for (let i = 0; i < numFlakes; i++) {
-                const snowflake = document.createElement('div');
-                snowflake.className = 'snowflake';
-                snowflake.style.left = Math.random() * 100 + 'vw';
-                snowflake.style.animationDuration = (Math.random() * 3 + 2) + 's';
-                snowflake.style.animationDelay = -Math.random() * 5 + 's';
-                body.appendChild(snowflake);
-            }
-        });
-    </script>
-
 </body>
 
 
@@ -186,34 +128,64 @@
             }
 
             #crt:after {
-     
+                content: " ";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 1%);
+                background-size: 100% 8px;
+                z-index: 100;
+                pointer-events: none;
+            }
 
             #crt {
-
+                position: relative;
+                width: 100%;
+                height: 100%;
+                background: #000;
+                overflow: hidden;
+                box-shadow: 0 0 0.5em #000;
+                animation: flicker 0.1s infinite;
             }
 
             #terminal {
                 font-size: 16px;
                 font-family: monospace;
-                color: #a7ffa2;
+                color: #ffffff;
                 padding: 16px;
-                text-shadow: 0 0 1em #a7ffa2;
+                text-shadow: 0 0 1em #ffffff;
             }
 
             #terminal::after {
-         
-
+                content: "";
+                width: 3px;
+                height: 1.5ch;
+                display: inline-block;
+                z-index: 100;
+                background: #a7ffa2;
 
                 animation: flash-cursor 0.5s infinite;
             }
 
+            @keyframes flash-cursor {
+                0% {
+                    opacity: 1;
+                }
+                50% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
                 }
             }
         </style>
         <script>
             let terminal = document.getElementById("terminal");
 
-            async function typeIntoTerminal(text, speed = 30, newLine = true) {
+            async function typeIntoTerminal(text, speed = 20, newLine = true) {
                 let textBefore = terminal.innerText;
                 for (let i = 0; i < text.length; i++) {
                     terminal.innerText = textBefore + text.substring(0, i);
@@ -229,32 +201,27 @@
                 await typeIntoTerminal("Authenticating...");
                 await typeIntoTerminal("Welcome to dll's biolink.");
                 await typeIntoTerminal("Username: ", 30, false);
-                await typeIntoTerminal(" @dll", 100);
+                await typeIntoTerminal(" dll", 100);
                 await typeIntoTerminal("Password: ", 30, false);
                 await typeIntoTerminal(" **********", 100);
                 await new Promise(resolve => setTimeout(resolve, 500));
                 await typeIntoTerminal("Login successful! Welcome back, fucktard.");
                 let ip = basic.YourFuckingIPAddress;
                 let country = basic.YourFuckingCountry;
+                await typeIntoTerminal(`Last successful login: ${new Date().toLocaleDateString()} by ${ip} from ${country}`);
                 await typeIntoTerminal("[d@skidding.info ~]$ ", 30, false)
                 await new Promise(resolve => setTimeout(resolve, 500));
                 await typeIntoTerminal(" login ", 200);
-                await typeIntoTerminal("click anywhere to login")
-				await typeIntoTerminal("Extra note: I Skid Code :)")
+                await typeIntoTerminal("Click anywhere to log in")
+				await typeIntoTerminal("Extra note: im a fucking skid :)")
             })()
         </script>
     </div>
     <div class="biolink" style="display:none;height:100%;width:100%;bg-main rounded-xl flex-[100%] sm:flex-[45%] animate-slide-up shadow-1xl p-3 button">
-        <div class="relative w-full h-full px-4 py-16 table    </div>
+        <div class="relative w-full h-full px-4 py-16 table bg-main rounded-xl flex-[100%] sm:flex-[45%] animate-slide-up shadow-1xl">
             <div class="table-cell align-middle text-center">
                 <div
-                background-image: url(girl.gif);
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                z-index: 1;
-                position: relative
-                        class="bg-main rounded-md shadow-4xl w-full mx-auto card animate-slide-up not-last-child:mb-12 max-w-[1100px] mt-14"></div>
+                        class="bg-main rounded-md shadow-4xl w-full mx-auto card animate-slide-up not-last-child:mb-12 max-w-[1100px] mt-14">
                     <div class="p-10">
                         <div class="not-last-child:mb-8">
                             <div class="-mt-[85px]">
@@ -262,68 +229,70 @@
                                      src="https://i.imgur.com/4TjGvvN.jpeg"
                                      title="Image">
                             </div>
-
                         </div>
                         <div class="not-last-child:mb-8">
                             <div class="flex justify-center items-center space-x-2">
                                 <h2 class="text-[20px] text-white font-semibold"
                                 style="color: #fff; background-image: url('nil');filter: drop-shadow(8px 8px 10px #ffffff);color:#ffffff;">
-                                @dll</span>
+                                @dll
                             </h2>
                             
                                 <span class="cursor-pointer text-xl" title="Verified">
                                  <div class="verified-icon"><img class="verified-icon-image verified-icon-image-dark"
-                                                                 src=""
+                                                                 src="https://swatted.net/enzo_files/verified.png"
                                                                  style="position: relative; height: 15px; left: 15%;"></div>
                               </span>
                                 <span class="cursor-pointer text-xl" title="Premium">
                                  <div class="premium"><img class="verified-icon-image verified-icon-image-dark"
-                                                           src=""
+                                                           src="https://swatted.net/enzo_files/MgZBYRy.png"
                                                            style="height: 12px; left: 60%;"></div>
                               </span>
                             </div>
-                            <p style="text-align: center;">
-                                <span class="typewrite" data-period="2000" data-type="[ &quot;<big> #freedll </big>&quot;, &quot;<big> Skidding Code :) </big>&quot;, &quot;<big> g59records.com </big>&quot;, &quot;<big> fetty in my cup </big>&quot;, &quot;<big> stolen code :) </big>&quot;, &quot;<big> skibidi sigma? </big>&quot;, &quot;<big> Still here?</big>&quot;]">
-                                    <span class="wrap"></span>
-                                </span>
+                            <p class="text-sm">
+                                dll.lol Private Bio-Link</em>
                             </p>
-                            
-                            
-                            
-                            
                         </div>
                         <div class="not-last-child:mb-8">
-                            <div class="mx-auto max-w-[800px]">
-                                <p style="text-align: center;">
-                                    <span data-period="2000" data-type="[ &quot;dont meess with&quot;]">
-                                        <span class="wrap" style="font-size: 100px;"></span>
-                                    </span>
+                            <div class="mx-auto max-w-[750px]">
+                                <p>
+                                    <span class="typewrite" data-period="2000"
+                                          data-type="[ &quot;Im a silly billy&quot;]"><span class="wrap"></span></span>
                                 </p>
-                                
                             </div>
                         </div>
                         <div class="flex justify-center items-center space-x-2">
                             <div style="text-align: center;">
-                                <a href=" https://discord.com/users/642116142768455683 " target="_blank">
+                                <a href="https://discord.com/users/642116142768455683" target="_blank">
                                     <img src="https://discord.c99.nl/widget/theme-4/642116142768455683.png"
                                          style="width: 500px;"></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
-
                 
-
-                
+<div class="1w-full mx-auto card animate-slide-up not-last-child:mb-12 max-w-[1100px]">
+    <div class="!p-0">
+   <div class="flex flex-wrap justify-between gap-6">
+    <a class="bg-main rounded-xl flex-[100%] sm:flex-[45%] animate-slide-up shadow-1xl p-3 button"
+       href="https://nigger.xyz/mog"
+       rel="noopener noreferrer nofollow" target="_blank"
+       title="https://nigger.xyz/mog"
+       style="will-change: opacity, transform; transition: transform 0.3s ease, filter 0.3s ease;"
+       onmouseover="this.style.transform='scale(1.05)'; this.style.filter='brightness(110%)';"
+       onmouseout="this.style.transform=''; this.style.filter='';">
+        <div class="flex items-center justify-between space-x-6">
+                    <span class="bg-secondary rounded-xl aspect-square h-16 p-3 flex items-center justify-center">
+                        <img class="" src="https://i.imgur.com/9knXaES.png">
+                    </span>
+                    <h2 class="w-full text-left text-grey">
+                        @mog
+                    </h2>
+                    <span class="w-20" style="margin-left: 46px;">
+                        <img class="link-arrows" src="https://swatted.net/enzo_files/link-button-arrow.png" style="width: 14px;">
+                    </span>
+                </div>
+            </a>
+          
 
         </div>
     </div>
@@ -357,7 +326,7 @@
         }
     }
 
-    document.querySelector('.net').addEventListener('click', function () {
+    document.querySelector('.swattednet').addEventListener('click', function () {
         playclip();
     });
 
