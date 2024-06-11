@@ -11,7 +11,7 @@
     <script>
         document.addEventListener('contextmenu', function(e) {
             e.preventDefault();
-        });
+        });D
 
         document.onkeydown = function(e) {
             if (e.keyCode == 123) {
@@ -109,6 +109,16 @@
 </head>
 
 <style>
+    @font-face {
+        font-family: skibidi;
+        src: url(HelpMe.ttf);
+    }
+
+    @font-face {
+        font-family: toilet;
+        src: url(PANIC.ttf);
+    }
+
     html {
         -webkit-touch-callout: none;
         -webkit-user-select: none;
@@ -120,10 +130,10 @@
 
     body {
         background-color:#060707;
-        padding: 0;
+        padding: 10px;
         margin: 0;
         height: 100%;
-        font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+        font-family: "toilet", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
         text-align: center;
         color: white;
         display: flex;
@@ -218,7 +228,7 @@
         font-weight: normal;
         font-size: 20px;
         transform: translate(-50%, -50%);
-        font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+        font-family: "skibidi", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
     }
 
     .social-icon {
