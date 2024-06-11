@@ -126,6 +126,11 @@
         font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
         text-align: center;
         color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        
     }
 
     #blur-box {
@@ -163,7 +168,7 @@
 
     #username {
         font-size: 35px;
-        margin-top: 130px;
+        margin-top: 155px;
         text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
     }
 
@@ -198,6 +203,12 @@
         color: white;
         text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
     }
+
+    img {
+            display: block;
+            width: 50%;
+            animation: fadein 2s forwards;
+        }
 
     .next {
         top: 50%;
@@ -278,6 +289,7 @@
 
 <body>
     <div id="button"><b class="next glowing-text">click to disassociate</b></div>
+    <img src="sayori hang.gif" alt="fuk u" style="width: 14%; position: fixed; top: 0;">
     <div id="blur-box">
         <div id="profile-picture">
             <img src="https://i.imgur.com/xnxj0t3.jpeg" alt="Profile Picture">
@@ -288,14 +300,13 @@
             <span class="typewrite" data-period="2000"
                   data-type="[ &quot;d@skidding.info - email for inquiries&quot;]"><span class="wrap"></span></span>
         </p>
-        <a href="https://discord.com/users/1219705139368300630" target="_blank">
-            <img src="https://discord.c99.nl/widget/theme-4/642116142768455683.png"
-                 style="width: 400px;"></a>
-
         <a href="https://discord.com/users/642116142768455683" class="discord-stuff"><img src="files/discord.png"/></a>
         <a href="https://youtube.com/channel/UCgxq0aTN6Z88UuHBWOhq0Qg" class="youtube-stuff"><img src="files/youtube.png"/></a>
         <a href="https://roblox.com/users/482301539/profile" class="social-icon"><img src="files/Roblox.png"/></a>
         <a href="https://nigger.xyz/mog" class="social-icon"><img src="files/internet.png"/></a>
+        <a href="https://discord.com/users/1219705139368300630" target="_blank">
+            <img src="https://discord.c99.nl/widget/theme-4/642116142768455683.png"
+                 style="width: 400px;"></a>
     </div>
 
     <video id="video-background" loop>
