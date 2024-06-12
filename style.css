@@ -1,12 +1,12 @@
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur817.cur), auto !important;} /* End https://www.cursors-4u.com */
 @font-face {
     font-family: 'gaufontpopmagicregular';
-    src: url('gaufontpopmagic-webfont.woff2') format('woff2'),
-         url('gaufontpopmagic-webfont.woff') format('woff');
+    src: url('PANIC.ttf') format('woff2'),
     font-weight: normal;
     font-style: normal;
 
 }
+
 body {
   background-color: #000000;
 }
@@ -59,14 +59,13 @@ body {
     opacity: 0.3;
   }
 }
- 
-body{
-background-color: #000000;
-font-family: ms gothic, monospace;
-background-image: url(images/bg-3.gif);
-background-size: px;
-background-color: #000000;
 
+body {
+    background-color: #000000;
+    font-family: gaufontpopmagicregular, gaufontpopmagicregular;
+    background-image: url(images/bg-3.gif);
+    background-size: px;
+    background-color: #000000;
 }
  
 #container{
